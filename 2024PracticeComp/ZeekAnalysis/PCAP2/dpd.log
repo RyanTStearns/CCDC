@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2024-12-29-21-17-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1733584959.213780	CzOrlg2cBEkzQkw68	172.25.21.150	30990	8.8.4.4	443	udp	QUIC	unhandled frame type FrameType::RESET_STREAM in 0 (/usr/src/packages/BUILD/src/analyzer/protocol/quic/QUIC.spicy:290:7-290:95) [\xc2\x00\x00\x00\x01\x00\x08\xf4\x0f\x0e\x07\x05\xdeL\x07\x00D\xd0\xa4\xb7>\xc8\xae\xda\xc2\x12Q6\xb1\x17[5'DD\x9b\xacw\x89P...]
+#close	2024-12-29-21-17-39

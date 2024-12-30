@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-12-29-21-17-31
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1733584034.942054	violation	protocol	HTTP	COidwM2TAPwpfwmFQ6	-	172.31.21.5	55369	199.232.210.172	80	not a http reply line	-
+1733584563.241864	violation	file	PE	-	FcH6bR2NliXDz1SVte	-	-	-	-	Binpac exception: binpac exception: &enforce violation : DOS_Header:AddressOfNewExeHeader	-
+1733584563.262885	violation	file	PE	-	FB6dsa3FSDmzwaZss7	-	-	-	-	Binpac exception: binpac exception: &enforce violation : DOS_Header:AddressOfNewExeHeader	-
+1733584959.213780	violation	protocol	QUIC	CzOrlg2cBEkzQkw68	-	172.25.21.150	30990	8.8.4.4	443	unhandled frame type FrameType::RESET_STREAM in 0 (/usr/src/packages/BUILD/src/analyzer/protocol/quic/QUIC.spicy:290:7-290:95)	\xc2\x00\x00\x00\x01\x00\x08\xf4\x0f\x0e\x07\x05\xdeL\x07\x00D\xd0\xa4\xb7>\xc8\xae\xda\xc2\x12Q6\xb1\x17[5'DD\x9b\xacw\x89P
+#close	2024-12-29-21-17-39

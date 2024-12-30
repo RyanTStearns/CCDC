@@ -1,0 +1,49 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2024-12-29-21-17-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1733583250.105061	-	172.31.21.5	0	10.15.19.147	0	bad_IP_checksum	-	F	zeek	IP
+1733583412.850605	-	-	-	-	-	ip_hdr_len_zero	-	F	zeek	IP
+1733583481.948597	CVCdYX1sLITVTmDBS6	172.31.21.5	53557	3.167.163.84	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583484.787582	CoEKmi256P4HbhNKZ3	172.31.21.5	53642	23.220.206.55	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583484.822701	C4oCYf32hPSjncx6db	172.31.21.5	53640	23.220.206.55	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583485.142514	CYMY5uIV251nam9gl	172.31.21.5	53651	104.19.186.108	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583485.190840	Cufu7h1J4zdhlP7O88	172.31.21.5	53567	142.250.190.142	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583485.323320	CFFhhq2rllRQ8GEWB	172.31.21.5	53652	151.101.130.217	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583485.444297	C4oCYf32hPSjncx6db	172.31.21.5	53640	23.220.206.55	443	bad_TCP_checksum	-	F	zeek	TCP
+1733583488.233710	Cgx13MVEFgx37MbU6	172.31.21.5	53773	142.250.191.202	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583495.577253	CGDOPW19gP1jqBpiD6	172.31.21.5	53910	23.33.22.133	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583591.920889	CKTYmb37XSLkU1kkQ	172.25.21.151	49864	10.96.7.9	443	data_before_established	-	F	zeek	TCP
+1733583594.029350	CpxYXq4VlYstdVha27	172.31.21.5	54012	3.162.174.113	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583614.781340	CdlNRt1jSy4CmNZGcf	172.31.21.5	54088	3.167.163.88	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583616.703004	C3JLuq2zNoBtcMJXEg	172.31.21.5	54010	3.162.174.113	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583682.062298	CWsea52VAVYkeo0fYh	172.31.21.5	53558	13.91.222.61	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583684.050729	CBbSij3w067HlJsp7h	172.31.21.5	54283	67.220.228.201	443	window_recision	-	F	zeek	-
+1733583684.185056	CshhF84zRDnZ46FWfk	172.31.21.5	53674	172.240.45.75	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583684.380954	CqUvVT3Evl5YxMSEWh	172.31.21.5	54284	3.162.163.88	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583737.900525	CEgQ3A9T1hULiMiKb	172.31.21.5	54423	18.154.185.99	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583751.735369	C4abKv3Qi1cTYgq1g	172.31.21.5	54459	18.172.122.23	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583813.369716	CHQwHPWLBnPI74H48	172.31.21.5	54677	184.84.168.50	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583854.519119	Cg8Cyg4XWEeXfp8DYj	172.25.21.151	37607	65.175.128.102	80	possible_split_routing	-	F	zeek	-
+1733583854.519119	Cg8Cyg4XWEeXfp8DYj	172.25.21.151	37607	65.175.128.102	80	data_before_established	-	F	zeek	TCP
+1733583873.704888	CcmGR63IVBSZhG12A6	192.168.10.25	46653	172.25.21.11	80	HTTP_version_mismatch	-	F	zeek	HTTP
+1733583896.061036	CBy2wIgPRxS73Wlu4	172.31.21.5	55026	18.172.122.35	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583909.351279	CJqDI72d7Vzc35Uki6	172.31.21.5	55067	3.162.174.82	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733583954.050759	CxZR5B4fnbnucrZ1c3	172.31.21.5	55259	104.18.23.145	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733584019.946767	-	-	-	-	-	ip_hdr_len_zero	-	F	zeek	IP
+1733584025.878443	CeBI2y4ifvFg2uJ3pi	172.25.21.151	10857	23.44.77.196	443	possible_split_routing	-	F	zeek	-
+1733584034.942054	COidwM2TAPwpfwmFQ6	172.31.21.5	55369	199.232.210.172	80	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1733584149.732403	CX6xZr1Y1IzA1KU1Id	172.25.21.151	56749	10.96.7.9	443	possible_split_routing	-	F	zeek	-
+1733584162.564068	C7JBFl49tuVsa87Dsd	172.25.21.151	29904	65.175.128.102	80	possible_split_routing	-	F	zeek	-
+1733584162.564068	C7JBFl49tuVsa87Dsd	172.25.21.151	29904	65.175.128.102	80	data_before_established	-	F	zeek	TCP
+1733584163.504219	Cimabi4e7cDsJevje	172.25.21.151	58820	64.250.112.70	80	possible_split_routing	-	F	zeek	-
+1733584167.666155	CzHd93jbythJN7Rrj	172.25.21.151	48803	65.175.128.102	80	possible_split_routing	-	F	zeek	-
+1733584169.328136	CBBGjGMEOntNL6qU6	172.25.21.151	64199	65.175.128.102	80	possible_split_routing	-	F	zeek	-
+1733584170.241069	CAZFw44C0tE5ZOGwk1	172.25.21.151	53666	65.175.128.102	80	possible_split_routing	-	F	zeek	-
+1733584587.006522	CdQh8L3AFACi5yAGXb	172.25.21.152	37860	146.75.82.172	80	HTTP_excessive_pipelining	-	F	zeek	-
+1733585000.493703	CengtU2JoD5n2Wngm8	10.48.226.212	36835	172.25.21.39	110	pop3_server_command_unknown	1	F	zeek	POP3
+#close	2024-12-29-21-17-39
