@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2024-12-28-09-13-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1733582204.793412	-	172.31.21.5	0	13.107.246.254	0	bad_IP_checksum	-	F	zeek	IP
+1733582496.334694	-	-	-	-	-	ip_hdr_len_zero	-	F	zeek	IP
+1733582628.552670	CG7uKn3tpibjvbF5ka	172.31.21.5	53393	20.99.184.37	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582631.778113	CyX8C54U37bYybXtub	172.31.21.5	53399	20.99.133.109	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582632.383349	Cnf0T13ukwFup9vzp2	172.31.21.5	53400	52.185.73.156	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582644.380207	CjqQGM3WXhJMX0j4i	172.31.21.5	53419	20.96.52.198	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582647.074679	CcITKt2Pjj9fzu0hub	172.31.21.5	53425	52.185.73.156	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582648.528356	CSemlSHAAvbYJwO1	172.31.21.5	53428	20.99.184.37	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582652.722046	CbC5hO3peoKcbOGY1a	172.31.21.5	53433	20.242.39.171	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582681.427082	CeiWJZ3ErOjCkNCQkh	172.31.21.5	53447	84.201.220.21	80	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582681.432108	CGzXGn1rWtBMjRuh22	172.31.21.5	53448	84.201.220.19	80	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582681.672583	C82sXn1qwjNfqBsY29	172.31.21.5	53453	23.48.99.23	80	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582682.940109	CqQ81V1cSDB1FlbPD	172.31.21.5	53459	23.48.99.24	80	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582683.610814	CknKyA3K4ws57vXiQl	172.31.21.5	53461	23.48.99.24	80	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582683.951545	CbwEppm39OneTQaif	172.31.21.5	53452	23.48.99.24	80	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582684.607571	C82sXn1qwjNfqBsY29	172.31.21.5	53453	23.48.99.23	80	bad_TCP_checksum	-	F	zeek	TCP
+1733582686.931670	CaEDBy1qPj6sBJJo1h	172.31.21.5	53462	23.48.99.23	80	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582689.970451	CnLGIX1To6LJi3PCy8	172.31.21.5	53476	199.232.214.172	80	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582689.976324	COK8df3qLZUkD6q8ga	172.31.21.5	53475	199.232.210.172	80	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582698.527341	CQAXP73hef566j8uji	172.31.21.5	53486	23.221.246.96	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1733582764.324301	Cfy1dbiQoOqXiGz9	172.31.21.5	53503	199.232.214.172	80	above_hole_data_without_any_acks	-	F	zeek	TCP
+#close	2024-12-28-09-13-31

@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssh
+#open	2024-12-28-09-13-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	auth_success	auth_attempts	direction	client	server	cipher_alg	mac_alg	compression_alg	kex_alg	host_key_alg	host_key
+#types	time	string	addr	port	addr	port	count	bool	count	enum	string	string	string	string	string	string	string	string
+1733582838.158253	CEPaGQKnUXzj23eO8	10.96.7.9	45850	172.25.21.11	22	2	-	0	-	SSH-2.0-paramiko_3.5.0	SSH-2.0-OpenSSH_6.6.1	aes128-ctr	hmac-sha2-256	none	curve25519-sha256@libssh.org	ssh-ed25519	ed:a5:16:5e:30:b1:21:a9:9a:92:c2:c5:61:36:94:7c
+1733582838.140644	CBHqlBz11eS5MJQB7	10.96.7.9	45846	172.25.21.11	22	2	-	0	-	SSH-2.0-paramiko_3.5.0	SSH-2.0-OpenSSH_6.6.1	aes128-ctr	hmac-sha2-256	none	curve25519-sha256@libssh.org	ssh-ed25519	ed:a5:16:5e:30:b1:21:a9:9a:92:c2:c5:61:36:94:7c
+#close	2024-12-28-09-13-31

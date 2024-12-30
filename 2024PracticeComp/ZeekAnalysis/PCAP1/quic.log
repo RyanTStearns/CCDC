@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	quic
+#open	2024-12-28-09-13-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	client_initial_dcid	client_scid	server_scid	server_name	client_protocol	history
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	string
+1733582233.524005	C87nOb394qiDCuzHJk	172.31.21.5	57607	172.64.41.3	443	1	-	-	01394d14774a12ff8e394317594a1670f5f9d632	-	-	iii
+1733582295.640167	CHnN5Id2EiH5gpU5j	172.31.21.5	58477	172.64.41.3	443	1	-	-	0124a142855d207c3526c5429f5d243a0cb1280a	-	-	iii
+1733582357.680584	CEEJGq8kat6bNrxu2	172.31.21.5	61074	162.159.61.3	443	1	-	-	014a2866204f42593b4ba6675a4f47f062042407	-	-	iii
+1733582436.544901	Cf1Iso1K6Loy23A898	172.31.21.5	63729	162.159.61.3	443	1	-	-	01164e857301aa0d0c164087b501a7136e4606a9	-	-	iiii
+1733582496.316120	CUwd6i1UgJ7E8O332j	172.31.21.5	64061	162.159.61.3	443	1	-	-	01fdfb57a777ba8418ff9f579f77a44ca573b836	-	-	iii
+1733582560.282340	CamZQj3ll6EDTCHgIg	172.25.21.150	43890	8.8.4.4	443	1	a88c06c9d996ca00	(empty)	e88c06c9d996ca00	-	-	IIZZZiiishH
+1733582854.420570	CY3XiHt1iUrlk6o5c	172.31.21.5	52093	172.64.41.3	443	1	-	-	0189fcbafe6a53ccd18871bad36a4ac493d1d72c	-	-	iii
+1733582854.438930	CRHW7C3jO8M1jhWCNa	172.31.21.5	65225	142.250.191.174	443	1	-	-	ea04e9030f7c0592	-	-	iiih
+#close	2024-12-28-09-13-31
