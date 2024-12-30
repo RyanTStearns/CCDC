@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-12-29-21-19-25
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1733589149.897330	violation	protocol	QUIC	CFRMoGCWFQIHlbsbh	-	172.25.21.150	29088	8.8.4.4	443	unhandled frame type FrameType::RESET_STREAM in 0 (/usr/src/packages/BUILD/src/analyzer/protocol/quic/QUIC.spicy:290:7-290:95)	\xc7\x00\x00\x00\x01\x00\x08\xf7\xfb\xc6\xb4\xbc\x1cC\x14\x00D\xd0\xa2\xc3-\xdc)\x8f<T!\xab\x8b\xc6\x96\x0dO\xf4\x8ecQv\x82\xe5
+#close	2024-12-29-21-19-28
