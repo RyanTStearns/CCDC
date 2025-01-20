@@ -1,19 +1,18 @@
 import pwd
 import grp
-from termcolor import colored
 
-# Function to print headers in color
+# Function to print headers
 def print_header(text):
-    print(colored(text, 'yellow', attrs=['bold']))
+    print(text)
 
 # Function to print user details in a clean format
 def enumerate_users():
     """Enumerates all users on the Linux system."""
     print_header("\n--- Users ---")
     for user in pwd.getpwall():
-        print(f"Username: {colored(user.pw_name, 'cyan')}, UID: {colored(user.pw_uid, 'green')}, "
-              f"GID: {colored(user.pw_gid, 'green')}, Home Directory: {colored(user.pw_dir, 'blue')}, "
-              f"Shell: {colored(user.pw_shell, 'blue')}")
+        print(f"Username: {user.pw_name}, UID: {user.pw_uid}, "
+              f"GID: {user.pw_gid}, Home Directory: {user.pw_dir}, "
+              f"Shell: {user.pw_shell}")
 
 # Function to print groups with and without members
 def enumerate_groups():
@@ -33,14 +32,12 @@ def enumerate_groups():
     print_header("\nGroups with members:")
     for group in groups_with_members:
         members = ", ".join(group.gr_mem)
-        print(f"Group Name: {colored(group.gr_name, 'cyan')}, GID: {colored(group.gr_gid, 'green')}, "
-              f"Members: {colored(members, 'magenta')}")
+        print(f"Group Name: {group.gr_name}, GID: {group.gr_gid}, Members: {members}")
 
     # Print groups without members
     print_header("\nGroups without members:")
     for group in groups_without_members:
-        print(f"Group Name: {colored(group.gr_name, 'cyan')}, GID: {colored(group.gr_gid, 'green')}, "
-              f"Members: {colored('None', 'red')}")
+        print(f"Group Name: {group.gr_name}, GID: {group.gr_gid}, Members: None")
 
 if __name__ == "__main__":
     enumerate_users()
