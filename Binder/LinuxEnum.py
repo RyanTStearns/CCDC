@@ -10,9 +10,8 @@ def enumerate_users():
     """Enumerates all users on the Linux system."""
     print_header("\n--- Users ---")
     for user in pwd.getpwall():
-        print(f"Username: {user.pw_name}, UID: {user.pw_uid}, "
-              f"GID: {user.pw_gid}, Home Directory: {user.pw_dir}, "
-              f"Shell: {user.pw_shell}")
+        print("Username: {}, UID: {}, GID: {}, Home Directory: {}, Shell: {}".format(
+            user.pw_name, user.pw_uid, user.pw_gid, user.pw_dir, user.pw_shell))
 
 # Function to print groups with and without members
 def enumerate_groups():
@@ -32,12 +31,12 @@ def enumerate_groups():
     print_header("\nGroups with members:")
     for group in groups_with_members:
         members = ", ".join(group.gr_mem)
-        print(f"Group Name: {group.gr_name}, GID: {group.gr_gid}, Members: {members}")
+        print("Group Name: {}, GID: {}, Members: {}".format(group.gr_name, group.gr_gid, members))
 
     # Print groups without members
     print_header("\nGroups without members:")
     for group in groups_without_members:
-        print(f"Group Name: {group.gr_name}, GID: {group.gr_gid}, Members: None")
+        print("Group Name: {}, GID: {}, Members: None".format(group.gr_name, group.gr_gid))
 
 if __name__ == "__main__":
     enumerate_users()
